@@ -3,6 +3,9 @@
 ## About
 A recent engagement required me to analyze geographic login activity for a GSuite domain. While Google makes several reports available on the Admin dashboard, there was not one that provided thorough geographic detail. I made a thing that would take the default Login Activity Report, enhance it to include GeoIP data and plot all of the data points on an interactive map.
 
+Here's an [interactive sample map](https://htmlpreview.github.io/?https://raw.githubusercontent.com/ecapuano/gsuite-login-geoip/master/sample_map.html) containing fake data.
+[![](https://i.imgur.com/4YmrAno.png)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/ecapuano/gsuite-login-geoip/master/sample_map.html)
+
 ## Prerequisites
 - See `requirements.txt` for Python modules
 - Download and unpack `GeoLiteCity.dat` from http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
@@ -12,6 +15,3 @@ A recent engagement required me to analyze geographic login activity for a GSuit
     1. ![](https://i.imgur.com/PAnYpwf.png)
 
 2. `python geoip.py /path/to/AuditReport.csv /path/to/GeoLiteCity.dat`
-    1. [![asciicast](https://asciinema.org/a/136108.png)](https://asciinema.org/a/136108)
-
-3. Profit.
