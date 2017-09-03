@@ -12,5 +12,6 @@ A recent engagement required me to analyze geographic login activity for a GSuit
     1. ![](https://i.imgur.com/PAnYpwf.png)
 
 2. `python geoip.py /path/to/AuditReport.csv /path/to/GeoLiteCity.dat`
+    1. [![asciicast](https://asciinema.org/a/136108.png)](https://asciinema.org/a/136108)
 
 3. Profit.
